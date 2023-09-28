@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-29T01:33:12 IST" name="YourTestSuiteName" finished-at="2023-09-29T01:34:06 IST" duration-ms="54390">
+    <groups>
+    </groups>
+    <test started-at="2023-09-29T01:33:12 IST" name="ExtendReport" finished-at="2023-09-29T01:34:06 IST" duration-ms="54390">
+      <class name="Testing.Test">
+        <test-method is-config="true" signature="config()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:12 IST" name="config" finished-at="2023-09-29T01:33:18 IST" duration-ms="5501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="Blankpassword()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:18 IST" name="Blankpassword" finished-at="2023-09-29T01:33:20 IST" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blankpassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:20 IST" name="close" finished-at="2023-09-29T01:33:20 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="config()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:20 IST" name="config" finished-at="2023-09-29T01:33:25 IST" duration-ms="4824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="Blankusrname()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:25 IST" name="Blankusrname" finished-at="2023-09-29T01:33:27 IST" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blankusrname -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:27 IST" name="close" finished-at="2023-09-29T01:33:27 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="config()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:27 IST" name="config" finished-at="2023-09-29T01:33:32 IST" duration-ms="4696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="Invalidpassword()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:32 IST" name="Invalidpassword" finished-at="2023-09-29T01:33:35 IST" duration-ms="3339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidpassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:35 IST" name="close" finished-at="2023-09-29T01:33:35 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="config()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:35 IST" name="config" finished-at="2023-09-29T01:33:40 IST" duration-ms="4894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="Invalidusrname()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:40 IST" name="Invalidusrname" finished-at="2023-09-29T01:33:43 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidusrname -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:43 IST" name="close" finished-at="2023-09-29T01:33:43 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="config()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:43 IST" name="config" finished-at="2023-09-29T01:33:47 IST" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="Logout()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:47 IST" name="Logout" finished-at="2023-09-29T01:33:58 IST" duration-ms="11040" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.cssSelector: i.oxd-icon.bi-caret-down-fill.oxd-userdropdown-icon (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: i.oxd-icon.bi-caret-down-fill.oxd-userdropdown-icon (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Testing.Test.Logout(Test.java:133)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"i.oxd-icon.bi-caret-down-fill.oxd-userdropdown-icon"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B6PQI5G', ip: '169.254.142.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\AKASHG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eadd9c9385d8f08d6e0b856d845f002c
+*** Element info: {Using=css selector, value=i.oxd-icon.bi-caret-down-fill.oxd-userdropdown-icon}
+at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:59 IST" name="close" finished-at="2023-09-29T01:33:59 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="config()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:33:59 IST" name="config" finished-at="2023-09-29T01:34:03 IST" duration-ms="4619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="Validlogin()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:34:03 IST" name="Validlogin" finished-at="2023-09-29T01:34:06 IST" duration-ms="2769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validlogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testing.Test@7daa0fbd]" started-at="2023-09-29T01:34:06 IST" name="close" finished-at="2023-09-29T01:34:06 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testing.Test -->
+    </test> <!-- ExtendReport -->
+  </suite> <!-- YourTestSuiteName -->
+</testng-results>
